@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actor.cs" />
+    <Compile Include="ActorNaam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActorNaam.Designer.cs">
+      <DependentUpon>ActorNaam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Line.cs" />
+    <Compile Include="Use Case.cs" />
     <Compile Include="UseCaseHelper.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +63,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseCaseNaam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseCaseNaam.Designer.cs">
+      <DependentUpon>UseCaseNaam.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActorNaam.resx">
+      <DependentUpon>ActorNaam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -65,6 +83,9 @@
     </Compile>
     <EmbeddedResource Include="UseCaseHelper.resx">
       <DependentUpon>UseCaseHelper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseCaseNaam.resx">
+      <DependentUpon>UseCaseNaam.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
