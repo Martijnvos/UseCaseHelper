@@ -195,6 +195,7 @@
             this.Controls.Add(this.labelUseCaseNaam);
             this.Name = "UseCaseNaam";
             this.Text = "Properties";
+            this.Load += new System.EventHandler(this.UseCaseNaam_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

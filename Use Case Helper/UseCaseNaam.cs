@@ -12,38 +12,56 @@ namespace Use_Case_Helper
 {
     public partial class UseCaseNaam : Form
     {
-        private string useCaseNaam;
-        private string useCaseSamenvatting;
-        private string useCaseActoren;
-        private string useCaseAannames;
-        private string useCaseBeschrijving;
-        private string useCaseUitzonderingen;
-        private string useCaseResultaat;
+        private Use_Case useCase;
 
-        public string UseCaseNaamGetter { get { return useCaseNaam; } }
-        public string UseCaseSamenvattingGetter { get { return useCaseSamenvatting; } }
-        public string UseCaseActorenGetter { get { return useCaseActoren; } }
-        public string UseCaseAannamesGetter { get { return useCaseAannames; } }
-        public string UseCaseBeschrijvingGetter { get { return useCaseBeschrijving; } }
-        public string UseCaseUitzonderingenGetter { get { return useCaseUitzonderingen; } }
-        public string UseCaseResultaatGetter { get { return useCaseResultaat; } }
-
-        public UseCaseNaam()
+        /// <summary>
+        /// Ontvang de klasse die bewerkt of ingesteld moet worden
+        /// </summary>
+        /// <param name="useCase">Use Case die bewerkt of ingesteld moet worden</param>
+        public UseCaseNaam(Use_Case useCase)
         {
             InitializeComponent();
+            this.useCase = useCase;
+        }
+
+        /// <summary>
+        /// Slaat gegevens op in betreffende Use Case klasse
+        /// </summary>
+        private void slaGegevensOp()
+        {
+            useCase.UseCaseNaamGetterSetter = textBoxUseCaseNaam.Text;
+            useCase.UseCaseSamenvattingGetterSetter = textBoxUseCaseSamenvatting.Text;
+            useCase.UseCaseActorenGetterSetter = textBoxUseCaseActoren.Text;
+            useCase.UseCaseAannamesGetterSetter = textBoxUseCaseAannames.Text;
+            useCase.UseCaseBeschrijvingGetterSetter = textBoxUseCaseBeschrijving.Text;
+            useCase.UseCaseUitzonderingenGetterSetter = textBoxUseCaseUitzonderingen.Text;
+            useCase.UseCaseResultaatGetterSetter = textBoxUseCaseResultaat.Text;
+
+            this.Close();
+        }
+
+        /// <summary>
+        /// Laad eventueel al aangewezen gegevens opnieuw zodat ze bewerkt kunnen worden
+        /// </summary>
+        private void laadOpgeslagenGegevens()
+        {
+            textBoxUseCaseNaam.Text = useCase.UseCaseNaamGetterSetter;
+            textBoxUseCaseSamenvatting.Text = useCase.UseCaseSamenvattingGetterSetter;
+            textBoxUseCaseActoren.Text = useCase.UseCaseActorenGetterSetter;
+            textBoxUseCaseAannames.Text = useCase.UseCaseAannamesGetterSetter;
+            textBoxUseCaseBeschrijving.Text = useCase.UseCaseBeschrijvingGetterSetter;
+            textBoxUseCaseUitzonderingen.Text = useCase.UseCaseUitzonderingenGetterSetter;
+            textBoxUseCaseResultaat.Text = useCase.UseCaseResultaatGetterSetter;
+        }
+
+        private void UseCaseNaam_Load(object sender, EventArgs e)
+        {
+            laadOpgeslagenGegevens();
         }
 
         private void buttonSlaOp_Click(object sender, EventArgs e)
         {
-            useCaseNaam = textBoxUseCaseNaam.Text;
-            useCaseSamenvatting = textBoxUseCaseSamenvatting.Text;
-            useCaseActoren = textBoxUseCaseActoren.Text;
-            useCaseAannames = textBoxUseCaseAannames.Text;
-            useCaseBeschrijving = textBoxUseCaseBeschrijving.Text;
-            useCaseUitzonderingen = textBoxUseCaseUitzonderingen.Text;
-            useCaseResultaat = textBoxUseCaseResultaat.Text;
-
-            this.Close();
+            slaGegevensOp();
         }
     }
 }
