@@ -29,10 +29,7 @@ namespace Use_Case_Helper
             DrawArea = new Bitmap(pictureBoxDrawingBoard.Size.Width, pictureBoxDrawingBoard.Size.Height);
             pictureBoxDrawingBoard.Image = DrawArea;
 
-            Graphics g;
-            g = Graphics.FromImage(DrawArea);
-            g.Clear(Color.White);
-            g.Dispose();
+            makeDrawingBackgroundWhite();
         }
 
         private void buttonClearAll_Click(object sender, EventArgs e)
@@ -46,7 +43,17 @@ namespace Use_Case_Helper
 
                 DrawArea = new Bitmap(pictureBoxDrawingBoard.Size.Width, pictureBoxDrawingBoard.Size.Height);
                 pictureBoxDrawingBoard.Image = DrawArea;
+
+                makeDrawingBackgroundWhite();
             }
+        }
+
+        private void makeDrawingBackgroundWhite()
+        {
+            Graphics g;
+            g = Graphics.FromImage(DrawArea);
+            g.Clear(Color.White);
+            g.Dispose();
         }
 
         private void buttonRemove_Click(object sender, EventArgs e)
@@ -72,7 +79,8 @@ namespace Use_Case_Helper
         private void buttonGenereerJPG_Click(object sender, EventArgs e)
         {
             Bitmap bmp = (Bitmap)pictureBoxDrawingBoard.Image;
-            bmp.Save(@"D:\Documents - HDD\Martijn Fontys\Software Development\S2\Week 2\Use Case Helper\useCaseImage.png");
+            bmp.Save(@"D:\Documents - HDD\Martijn Fontys\Software Development\S2\Week 2\Use Case Helper\useCaseImage.jpg");
+            MessageBox.Show("Afbeelding opgeslagen");
         }
 
         private void pictureBoxDrawingBoard_MouseUp(object sender, MouseEventArgs e)
