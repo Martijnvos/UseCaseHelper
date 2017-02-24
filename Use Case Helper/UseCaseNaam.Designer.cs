@@ -47,7 +47,7 @@
             // 
             // buttonSlaOp
             // 
-            this.buttonSlaOp.Location = new System.Drawing.Point(345, 669);
+            this.buttonSlaOp.Location = new System.Drawing.Point(373, 949);
             this.buttonSlaOp.Name = "buttonSlaOp";
             this.buttonSlaOp.Size = new System.Drawing.Size(113, 35);
             this.buttonSlaOp.TabIndex = 5;
@@ -134,7 +134,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 520);
+            this.label5.Location = new System.Drawing.Point(22, 779);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 17);
             this.label5.TabIndex = 13;
@@ -143,7 +143,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(22, 597);
+            this.label6.Location = new System.Drawing.Point(22, 856);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 17);
             this.label6.TabIndex = 14;
@@ -154,12 +154,12 @@
             this.textBoxUseCaseBeschrijving.Location = new System.Drawing.Point(183, 410);
             this.textBoxUseCaseBeschrijving.Multiline = true;
             this.textBoxUseCaseBeschrijving.Name = "textBoxUseCaseBeschrijving";
-            this.textBoxUseCaseBeschrijving.Size = new System.Drawing.Size(241, 95);
+            this.textBoxUseCaseBeschrijving.Size = new System.Drawing.Size(241, 336);
             this.textBoxUseCaseBeschrijving.TabIndex = 15;
             // 
             // textBoxUseCaseUitzonderingen
             // 
-            this.textBoxUseCaseUitzonderingen.Location = new System.Drawing.Point(183, 520);
+            this.textBoxUseCaseUitzonderingen.Location = new System.Drawing.Point(183, 779);
             this.textBoxUseCaseUitzonderingen.Multiline = true;
             this.textBoxUseCaseUitzonderingen.Name = "textBoxUseCaseUitzonderingen";
             this.textBoxUseCaseUitzonderingen.Size = new System.Drawing.Size(241, 58);
@@ -167,7 +167,7 @@
             // 
             // textBoxUseCaseResultaat
             // 
-            this.textBoxUseCaseResultaat.Location = new System.Drawing.Point(183, 597);
+            this.textBoxUseCaseResultaat.Location = new System.Drawing.Point(183, 856);
             this.textBoxUseCaseResultaat.Multiline = true;
             this.textBoxUseCaseResultaat.Name = "textBoxUseCaseResultaat";
             this.textBoxUseCaseResultaat.Size = new System.Drawing.Size(241, 42);
@@ -177,7 +177,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 728);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(510, 1016);
             this.Controls.Add(this.textBoxUseCaseResultaat);
             this.Controls.Add(this.textBoxUseCaseUitzonderingen);
             this.Controls.Add(this.textBoxUseCaseBeschrijving);
