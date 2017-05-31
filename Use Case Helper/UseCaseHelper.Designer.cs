@@ -149,7 +149,7 @@
             this.pictureBoxDrawingBoard.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBoxDrawingBoard.Location = new System.Drawing.Point(38, 194);
             this.pictureBoxDrawingBoard.Name = "pictureBoxDrawingBoard";
-            this.pictureBoxDrawingBoard.Size = new System.Drawing.Size(896, 408);
+            this.pictureBoxDrawingBoard.Size = new System.Drawing.Size(896, 576);
             this.pictureBoxDrawingBoard.TabIndex = 4;
             this.pictureBoxDrawingBoard.TabStop = false;
             this.pictureBoxDrawingBoard.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxDrawingBoard_MouseUp);
@@ -168,7 +168,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 628);
+            this.ClientSize = new System.Drawing.Size(980, 798);
             this.Controls.Add(this.buttonGenereerJPG);
             this.Controls.Add(this.pictureBoxDrawingBoard);
             this.Controls.Add(this.groupBoxModes);

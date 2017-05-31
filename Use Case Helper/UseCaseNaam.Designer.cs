@@ -47,7 +47,7 @@
             // 
             // buttonSlaOp
             // 
-            this.buttonSlaOp.Location = new System.Drawing.Point(373, 949);
+            this.buttonSlaOp.Location = new System.Drawing.Point(550, 750);
             this.buttonSlaOp.Name = "buttonSlaOp";
             this.buttonSlaOp.Size = new System.Drawing.Size(113, 35);
             this.buttonSlaOp.TabIndex = 5;
@@ -58,8 +58,9 @@
             // textBoxUseCaseNaam
             // 
             this.textBoxUseCaseNaam.Location = new System.Drawing.Point(183, 57);
+            this.textBoxUseCaseNaam.Multiline = true;
             this.textBoxUseCaseNaam.Name = "textBoxUseCaseNaam";
-            this.textBoxUseCaseNaam.Size = new System.Drawing.Size(241, 22);
+            this.textBoxUseCaseNaam.Size = new System.Drawing.Size(241, 39);
             this.textBoxUseCaseNaam.TabIndex = 4;
             // 
             // labelUseCaseNaam
@@ -76,23 +77,23 @@
             this.textBoxUseCaseSamenvatting.Location = new System.Drawing.Point(183, 112);
             this.textBoxUseCaseSamenvatting.Multiline = true;
             this.textBoxUseCaseSamenvatting.Name = "textBoxUseCaseSamenvatting";
-            this.textBoxUseCaseSamenvatting.Size = new System.Drawing.Size(241, 96);
+            this.textBoxUseCaseSamenvatting.Size = new System.Drawing.Size(241, 120);
             this.textBoxUseCaseSamenvatting.TabIndex = 6;
             // 
             // textBoxUseCaseActoren
             // 
-            this.textBoxUseCaseActoren.Location = new System.Drawing.Point(183, 238);
+            this.textBoxUseCaseActoren.Location = new System.Drawing.Point(183, 256);
             this.textBoxUseCaseActoren.Multiline = true;
             this.textBoxUseCaseActoren.Name = "textBoxUseCaseActoren";
-            this.textBoxUseCaseActoren.Size = new System.Drawing.Size(241, 51);
+            this.textBoxUseCaseActoren.Size = new System.Drawing.Size(241, 79);
             this.textBoxUseCaseActoren.TabIndex = 7;
             // 
             // textBoxUseCaseAannames
             // 
-            this.textBoxUseCaseAannames.Location = new System.Drawing.Point(183, 309);
+            this.textBoxUseCaseAannames.Location = new System.Drawing.Point(183, 363);
             this.textBoxUseCaseAannames.Multiline = true;
             this.textBoxUseCaseAannames.Name = "textBoxUseCaseAannames";
-            this.textBoxUseCaseAannames.Size = new System.Drawing.Size(241, 53);
+            this.textBoxUseCaseAannames.Size = new System.Drawing.Size(241, 175);
             this.textBoxUseCaseAannames.TabIndex = 8;
             // 
             // label1
@@ -107,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(22, 241);
+            this.label2.Location = new System.Drawing.Point(22, 259);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 17);
             this.label2.TabIndex = 10;
@@ -116,7 +117,7 @@
             // labelAannames
             // 
             this.labelAannames.AutoSize = true;
-            this.labelAannames.Location = new System.Drawing.Point(22, 312);
+            this.labelAannames.Location = new System.Drawing.Point(22, 363);
             this.labelAannames.Name = "labelAannames";
             this.labelAannames.Size = new System.Drawing.Size(75, 17);
             this.labelAannames.TabIndex = 11;
@@ -125,7 +126,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 410);
+            this.label4.Location = new System.Drawing.Point(626, 57);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 17);
             this.label4.TabIndex = 12;
@@ -134,7 +135,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 779);
+            this.label5.Location = new System.Drawing.Point(626, 426);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 17);
             this.label5.TabIndex = 13;
@@ -143,7 +144,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(22, 856);
+            this.label6.Location = new System.Drawing.Point(626, 573);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 17);
             this.label6.TabIndex = 14;
@@ -151,7 +152,7 @@
             // 
             // textBoxUseCaseBeschrijving
             // 
-            this.textBoxUseCaseBeschrijving.Location = new System.Drawing.Point(183, 410);
+            this.textBoxUseCaseBeschrijving.Location = new System.Drawing.Point(787, 57);
             this.textBoxUseCaseBeschrijving.Multiline = true;
             this.textBoxUseCaseBeschrijving.Name = "textBoxUseCaseBeschrijving";
             this.textBoxUseCaseBeschrijving.Size = new System.Drawing.Size(241, 336);
@@ -159,18 +160,18 @@
             // 
             // textBoxUseCaseUitzonderingen
             // 
-            this.textBoxUseCaseUitzonderingen.Location = new System.Drawing.Point(183, 779);
+            this.textBoxUseCaseUitzonderingen.Location = new System.Drawing.Point(787, 426);
             this.textBoxUseCaseUitzonderingen.Multiline = true;
             this.textBoxUseCaseUitzonderingen.Name = "textBoxUseCaseUitzonderingen";
-            this.textBoxUseCaseUitzonderingen.Size = new System.Drawing.Size(241, 58);
+            this.textBoxUseCaseUitzonderingen.Size = new System.Drawing.Size(241, 112);
             this.textBoxUseCaseUitzonderingen.TabIndex = 16;
             // 
             // textBoxUseCaseResultaat
             // 
-            this.textBoxUseCaseResultaat.Location = new System.Drawing.Point(183, 856);
+            this.textBoxUseCaseResultaat.Location = new System.Drawing.Point(787, 573);
             this.textBoxUseCaseResultaat.Multiline = true;
             this.textBoxUseCaseResultaat.Name = "textBoxUseCaseResultaat";
-            this.textBoxUseCaseResultaat.Size = new System.Drawing.Size(241, 42);
+            this.textBoxUseCaseResultaat.Size = new System.Drawing.Size(241, 115);
             this.textBoxUseCaseResultaat.TabIndex = 17;
             // 
             // UseCaseNaam
@@ -178,7 +179,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(510, 1016);
+            this.ClientSize = new System.Drawing.Size(1289, 843);
             this.Controls.Add(this.textBoxUseCaseResultaat);
             this.Controls.Add(this.textBoxUseCaseUitzonderingen);
             this.Controls.Add(this.textBoxUseCaseBeschrijving);

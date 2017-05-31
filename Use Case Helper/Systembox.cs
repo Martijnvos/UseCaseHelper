@@ -16,7 +16,7 @@ namespace Use_Case_Helper
 
         public void creëerSysteemBox(PictureBox pictureBoxDrawingBoard, Bitmap DrawArea)
         {
-            Rectangle systeemBox = new Rectangle(300, 10, 300, 300);
+            Rectangle systeemBox = new Rectangle(300, 10, 300, 450);
 
             SysteemNaam systeemNaam = new SysteemNaam(this);
             systeemNaam.ShowDialog();
