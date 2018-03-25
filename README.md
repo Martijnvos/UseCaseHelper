@@ -13,3 +13,7 @@ It's also possible to edit use cases and remove lines afterwards, making sure yo
 
 **Addition of line**  
 ![Use Case Helper line addition](images/use_case_line.png)  
+
+## Running the application
+Just download the source code and open the project in Visual Studio.  
+You should be able to run it with the 'Start' button.
