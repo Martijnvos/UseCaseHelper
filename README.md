@@ -8,8 +8,8 @@ It's also possible to edit use cases and remove lines afterwards, making sure yo
 **Addition of actor**  
 ![Use Case Helper actor addition](images/use_case_actor.png)  
 
-**Addition of use case**
+**Addition of use case**  
 ![Use Case Helper use case addition](images/use_case_system.png)  
 
-**Addition of line**
+**Addition of line**  
 ![Use Case Helper line addition](images/use_case_line.png)  
